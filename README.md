@@ -42,4 +42,19 @@ This notebook includes:
 
 ### 2. Spark_simple_regression_and_classification
 
+This notebook will go from zero to building a classification and regression models with spark. Understanding how features and labels have to be encoded in spark and how should we construct a model pipeline.
+
+The following points will be done step by step:
+
+1. Creating the Spark context
+2. Loading data (the Boston Housing dataset) in a regular format
+3. Putting the data into a Spark dataframe
+4. Working with Spark StandardScaler and VectorAssembler for feature engineering
+5. Rescaling the data
+6. Creating a train-test split
+7. Using grid search to improve results
+6. Fitting and evaluate models
+
 ### 3. Spark_application_with_categorical_features
+
+Often we have categorical features with values given as strings which we would like to transform to numerical values. In this notebook we'll fit a classification model for a dataset with categorical features, using first the StringIndexer, then the OneHotEncoderEstimator tools from pyrspark library, to create the dummified variables. 
